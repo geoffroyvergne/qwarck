@@ -1,0 +1,14 @@
+{
+	"locale": "en",
+	"main": {
+		"title": "Qwarck", 
+		"language": "en", 
+		"fullTextLanguage" : "English", 
+		"test": "test value en", 
+		"description": "Qwarck comming soon !!!"
+  	}, 
+	"footer": {
+		"copyright": "© copyright Qwarck 2014", 
+		"about": "About"
+	}
+}

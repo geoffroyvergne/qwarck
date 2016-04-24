@@ -1,0 +1,14 @@
+{
+	"locale": "en", 
+	"lang": "en", 
+	"langName": "English", 
+	"title": "Hello", 
+	"main": {
+		"title": "AngularBase", 
+		"language": "en"
+  	}, 
+	"index": {
+		"title": "Index", 
+		"description": "Index"
+	}
+}

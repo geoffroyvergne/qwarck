@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/images/faviconQwarck.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="fragment" content="!">
+
+    <title>Qwarck</title>
+
+    <!-- build:cssvendor assets/css/vendor.min.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbuild -->
+
+    <!-- build:cssapp assets/css/app.min.css -->
+    <link rel="stylesheet" href="../../angular-common/dist/common.css"/>
+    <!-- endbuild -->
+
+</head>
+<body ng-app="app">
+
+<div id="wrap" style="padding-top: 50px;">
+    <div class="container">
+        <div class="view-container">
+            <div ng-include src="'app/layout/header.tpl.html'" ng-controller="CommonController"></div>
+            <div ui-view role="main" class="view-frame"></div>
+        </div>
+    </div>
+</div>
+
+<div ng-include src="'app/layout/footer.tpl.html'"></div>
+
+<!-- build:jsvendor assets/js/vendor.min.js -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/angular/angular.min.js"></script>
+<script src="../node_modules/angular-route/angular-route.min.js"></script>
+<script src="../node_modules/angular-animate/angular-animate.min.js"></script>
+<script src="../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="../node_modules/angular-resource/angular-resource.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="../node_modules/angular-cookies/angular-cookies.min.js"></script>
+<script src="../node_modules/angular-dynamic-locale/dist/tmhDynamicLocale.js"></script>
+<script src="../node_modules/angular-translate/dist/angular-translate.min.js"></script>
+<script src="../node_modules/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+<script src="../node_modules/angular-translate-loader-url/angular-translate-loader-url.min.js"></script>
+<script src="../node_modules/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js"></script>
+<!-- endbuild -->
+
+
+<!-- build:jsapp assets/js/app.min.js -->
+<script src="app/app.js"></script>
+<script src="app/common/common.js"></script>
+<script src="app/common/translate/translate.module.js"></script>
+<script src="app/common/translate/translate.controller.js"></script>
+
+<script src="../../angular-common/dist/common.min.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
